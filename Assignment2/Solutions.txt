@@ -1,0 +1,19 @@
+"/" - next step toward solution
+
+3. Convert the following hex values	to decimal assuming	that they are stored as 2s
+   complement integers.
+a.	0x00000001
+	\0000 0000 0000 0000 0000 0000 0000 0001
+	 \
+	 
+b.	0x0000012A
+	\0000 0000 0000 0000 0000 0001 0010 1010
+	 \
+	 
+c.	0xFFFFFCE6
+	\1111 1111 1111 1111 1111 1100 1110 0110
+	 \
+	 
+d.	0xFFFFFFFF
+	\1111 1111 1111 1111 1111 1111 1111 1111
+	 \

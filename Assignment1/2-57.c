@@ -1,6 +1,5 @@
 /*
 Jared Smith
-951452843
 CIS 314
 Winter 2016
 */
