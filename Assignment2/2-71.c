@@ -28,5 +28,12 @@ Shifting the byte back will return the signed integer value of that byte.
 */
 int xbyte(packed_t word, int bytenum){
 	int signed_byte = (word << ((3 - bytenum) << 3)
-	return (signed_byte >> 24)
+	signed_byte = signed_byte >> 24)
+	return signed_byte;
+}
+
+int main(){
+	packed_t p = 0x89ABCDEF;
+	printf("%d\n", xbyte(p, 2));
+	printf("%d\n", xbyte(p, 3));
 }

@@ -6,3 +6,7 @@ int any_odd_one(unsigned x){
 	/* Simply uses a mask to determine the odd bits */
 	return (x & 0xAAAAAAAA) != 0;
 }
+
+int main(){
+	printf("%d\n", any_odd_one(0x89ABCDEF));
+}
